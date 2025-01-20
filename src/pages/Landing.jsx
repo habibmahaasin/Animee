@@ -23,7 +23,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <Loader isVisible={status === "loading"} />
+      <Loader isVisible={true} />
       <Container>
         <Header />
         <ThemeToggle />
