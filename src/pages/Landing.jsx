@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useAnime } from "@/hooks/useAnime";
 import { usePagination } from "@/hooks/usePagination";
-import Pagination from "@/ui/components/pagination";
 import { css } from "@emotion/css";
 import Card from "@/ui/components/Card";
 import Container from "@/ui/elements/Container";
@@ -9,6 +8,7 @@ import Loader from "@/ui/elements/Loader";
 import Header from "@/ui/layouts/Header";
 import ThemeToggle from "@/ui/elements/ThemeToggle";
 import CardListsLayout from "@/ui/layouts/CardLists";
+import Pagination from "@/ui/components/Pagination";
 
 const LandingPage = () => {
   const { animeLists, status, error, fetchAnime, page } = useAnime();
